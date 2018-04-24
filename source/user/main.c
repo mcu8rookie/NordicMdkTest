@@ -5,11 +5,13 @@
 
 void main_init(void)
 {
-	return;
+		test_init();
+		return;
 }
 void main_mainloop(void)
 {
-	return;
+		test_mainloop();
+		return;
 }
 
 int main(void)
