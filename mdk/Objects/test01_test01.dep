@@ -1,17 +1,17 @@
 Dependencies for Project 'test01', Target 'test01': (DO NOT MODIFY !)
 F (..\source\bsp\user_board.c)(0x5ADEFEF7)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\source -I ..\source\user -I ..\source\bsp -I ..\source\bsp -I ..\source\components\drivers_nrf\hal -I ..\source\components\libraries\util -I ..\source\components\drivers_nrf\nrf_soc_nosd-ID:\BaiduNetdiskDownload\NordicOpenSourceProject\PersonalBranch\NordicModule\mdk\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DNRF52 -DNRF52832-o .\objects\user_board.o --omf_browse .\objects\user_board.crf --depend .\objects\user_board.d)
-I (..\source\bsp\user_board.h)(0x5ADEFFA2)
+I (..\source\bsp\user_board.h)(0x5ADFE8BA)
 F (..\source\user\main.c)(0x5ADEF996)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\source -I ..\source\user -I ..\source\bsp -I ..\source\bsp -I ..\source\components\drivers_nrf\hal -I ..\source\components\libraries\util -I ..\source\components\drivers_nrf\nrf_soc_nosd-ID:\BaiduNetdiskDownload\NordicOpenSourceProject\PersonalBranch\NordicModule\mdk\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DNRF52 -DNRF52832-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\source\user\main.h)(0x5ADEF959)
-I (..\source\user\test_config.h)(0x5ADF0216)
-I (..\source\bsp\user_board.h)(0x5ADEFFA2)
-F (..\source\user\test_config.c)(0x5ADF01CB)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\source -I ..\source\user -I ..\source\bsp -I ..\source\bsp -I ..\source\components\drivers_nrf\hal -I ..\source\components\libraries\util -I ..\source\components\drivers_nrf\nrf_soc_nosd-ID:\BaiduNetdiskDownload\NordicOpenSourceProject\PersonalBranch\NordicModule\mdk\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DNRF52 -DNRF52832-o .\objects\test_config.o --omf_browse .\objects\test_config.crf --depend .\objects\test_config.d)
-I (..\source\user\test_config.h)(0x5ADF0216)
-I (..\source\bsp\user_board.h)(0x5ADEFFA2)
-I (..\source\user\user_gpio.h)(0x5ADF03E9)
-F (..\source\user\user_gpip.c)(0x5ADF04AB)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\source -I ..\source\user -I ..\source\bsp -I ..\source\bsp -I ..\source\components\drivers_nrf\hal -I ..\source\components\libraries\util -I ..\source\components\drivers_nrf\nrf_soc_nosd-ID:\BaiduNetdiskDownload\NordicOpenSourceProject\PersonalBranch\NordicModule\mdk\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DNRF52 -DNRF52832-o .\objects\user_gpip.o --omf_browse .\objects\user_gpip.crf --depend .\objects\user_gpip.d)
-I (..\source\user\test_config.h)(0x5ADF0216)
-I (..\source\bsp\user_board.h)(0x5ADEFFA2)
+I (..\source\user\test_config.h)(0x5AE01792)
+I (..\source\bsp\user_board.h)(0x5ADFE8BA)
+F (..\source\user\test_config.c)(0x5AE01CA4)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\source -I ..\source\user -I ..\source\bsp -I ..\source\bsp -I ..\source\components\drivers_nrf\hal -I ..\source\components\libraries\util -I ..\source\components\drivers_nrf\nrf_soc_nosd-ID:\BaiduNetdiskDownload\NordicOpenSourceProject\PersonalBranch\NordicModule\mdk\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DNRF52 -DNRF52832-o .\objects\test_config.o --omf_browse .\objects\test_config.crf --depend .\objects\test_config.d)
+I (..\source\user\test_config.h)(0x5AE01792)
+I (..\source\bsp\user_board.h)(0x5ADFE8BA)
+I (..\source\user\user_gpio.h)(0x5AE0180F)
+F (..\source\user\user_gpip.c)(0x5AE01C3F)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\source -I ..\source\user -I ..\source\bsp -I ..\source\bsp -I ..\source\components\drivers_nrf\hal -I ..\source\components\libraries\util -I ..\source\components\drivers_nrf\nrf_soc_nosd-ID:\BaiduNetdiskDownload\NordicOpenSourceProject\PersonalBranch\NordicModule\mdk\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DNRF52 -DNRF52832-o .\objects\user_gpip.o --omf_browse .\objects\user_gpip.crf --depend .\objects\user_gpip.d)
+I (..\source\user\test_config.h)(0x5AE01792)
+I (..\source\bsp\user_board.h)(0x5ADFE8BA)
 I (..\source\components\drivers_nrf\hal\nrf_gpio.h)(0x583C929D)
 I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf.h)(0x582EAF28)
 I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52.h)(0x582EAF22)
@@ -38,7 +38,7 @@ I (..\source\user\sdk_config.h)(0x583C9518)
 I (..\source\components\libraries\util\nordic_common.h)(0x583C929F)
 I (..\source\components\libraries\util\app_error_weak.h)(0x583C929E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (..\source\user\user_gpio.h)(0x5ADF03E9)
+I (..\source\user\user_gpio.h)(0x5AE0180F)
 F (RTE\Device\nRF52832_xxAA\arm_startup_nrf52.s)(0x582EAF28)(--cpu Cortex-M4.fp -g --apcs=interwork -ID:\BaiduNetdiskDownload\NordicOpenSourceProject\PersonalBranch\NordicModule\mdk\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "NRF52 SETA 1"--list .\listings\arm_startup_nrf52.lst --xref -o .\objects\arm_startup_nrf52.o --depend .\objects\arm_startup_nrf52.d)
 F (RTE\Device\nRF52832_xxAA\system_nrf52.c)(0x582EAF28)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\source -I ..\source\user -I ..\source\bsp -I ..\source\bsp -I ..\source\components\drivers_nrf\hal -I ..\source\components\libraries\util -I ..\source\components\drivers_nrf\nrf_soc_nosd-ID:\BaiduNetdiskDownload\NordicOpenSourceProject\PersonalBranch\NordicModule\mdk\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DNRF52 -DNRF52832-o .\objects\system_nrf52.o --omf_browse .\objects\system_nrf52.crf --depend .\objects\system_nrf52.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)

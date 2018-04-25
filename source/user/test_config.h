@@ -1,16 +1,22 @@
 #ifndef __TEST_CONFIG_H__
 #define __TEST_CONFIG_H__
 
-#define DEF_TEST_MODULE 1 // 
+#define DEF_TEST_MODULE 2 // 
 
 #if 0 // for note
 0
-1		for 	gpio
-2		for 	usart
+1		for 	leds
+2		for 	keys
 
 #endif
 
 #include "user_board.h"
+
+#define MODULE_LED	1
+#define MODULE_KEY	1
+#define MODULE_USART 1
+#define MODULE_TIMER 1
+
 
 void test_init(void);
 void test_mainloop(void);
