@@ -26,6 +26,8 @@
 #ifndef NRF_DRV_UART_H
 #define NRF_DRV_UART_H
 
+#include "nrf52832_peripherals.h"
+
 #include "nrf_uart.h"
 #ifdef UARTE_PRESENT
 #include "nrf_uarte.h"

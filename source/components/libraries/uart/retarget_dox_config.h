@@ -10,7 +10,8 @@
  *
  * @note This is an NRF_CONFIG macro.
  */
-#define RETARGET_ENABLED
+//#define RETARGET_ENABLED
+#define RETARGET_ENABLED 1
 
 
 /** @} */

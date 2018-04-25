@@ -333,9 +333,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>NRF52832</Define>
+              <Define>BSP_DEFINES_ONLY BOARD_PCA10040 NRF52 NRF52832</Define>
               <Undefine></Undefine>
-              <IncludePath>..\source;..\source\user;..\source\bsp;..\source\bsp;..\source\components\drivers_nrf\hal;..\source\components\libraries\util;..\source\components\drivers_nrf\nrf_soc_nosd</IncludePath>
+              <IncludePath>..\source;..\source\user;..\source\bsp;..\source\bsp;..\source\components\drivers_nrf\hal;..\source\components\libraries\util;..\source\components\drivers_nrf\nrf_soc_nosd;..\source\components\libraries\uart;..\source\components\drivers_nrf\uart;..\source\components\libraries\fifo;..\source\components\drivers_nrf\uart;..\source\components\device;..\source\components\libraries\log;..\source\components\libraries\log\src;..\source\components\drivers_nrf\common</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -403,9 +403,49 @@
               <FilePath>..\source\user\test_config.c</FilePath>
             </File>
             <File>
-              <FileName>user_gpip.c</FileName>
+              <FileName>user_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\source\user\user_gpip.c</FilePath>
+              <FilePath>..\source\user\user_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\user\user_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>retarget.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\components\libraries\uart\retarget.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_uart_fifo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\components\libraries\uart\app_uart_fifo.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_error.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\components\libraries\util\app_error.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_fifo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\components\libraries\fifo\app_fifo.c</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_drv_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\components\drivers_nrf\uart\nrf_drv_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_error_weak.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\components\libraries\util\app_error_weak.c</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_drv_common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\components\drivers_nrf\common\nrf_drv_common.c</FilePath>
             </File>
           </Files>
         </Group>

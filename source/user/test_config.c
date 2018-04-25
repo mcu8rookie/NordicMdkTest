@@ -9,6 +9,9 @@
 	#include "user_gpio.h"
 #elif DEF_TEST_MODULE == 2
 	#include "user_gpio.h"
+#elif DEF_TEST_MODULE == 3
+	#include "user_gpio.h"
+	#include "user_uart.h"
 #else
 	#error "DEF_TEST_MODULE == M means you would not define correct value."
 #endif
@@ -22,6 +25,11 @@ void test_init(void)
 	#elif DEF_TEST_MODULE == 2
 	leds_init();
 	keys_init();
+	#elif DEF_TEST_MODULE == 3
+	leds_init();
+	keys_init();
+	user_uart_init();
+	
 	#else
 	
 	#endif
@@ -36,6 +44,9 @@ void test_mainloop(void)
 	leds_loop();
 	#elif DEF_TEST_MODULE == 2
 	keys_loop();
+	#elif DEF_TEST_MODULE == 3
+	keys_loop();
+	user_uart_loop();
 	#else
 	
 	#endif

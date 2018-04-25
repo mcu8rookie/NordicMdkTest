@@ -9,6 +9,8 @@
  * the file.
  *
  */
+
+#include "retarget_dox_config.h"
 #include "sdk_common.h"
 /** @file
  *

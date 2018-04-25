@@ -10,7 +10,9 @@
  *
  * @note This is an NRF_CONFIG macro.
  */
-#define APP_UART_ENABLED
+//#define APP_UART_ENABLED
+#define APP_UART_ENABLED 1
+
 
 /** @brief UART instance used
  *

@@ -9,6 +9,8 @@
  * the file.
  *
  */
+
+#include "app_fifo_dox_config.h"
 #include "sdk_common.h"
 #if NRF_MODULE_ENABLED(APP_FIFO)
 #include "app_fifo.h"

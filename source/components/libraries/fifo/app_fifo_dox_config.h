@@ -10,7 +10,9 @@
  *
  * @note This is an NRF_CONFIG macro.
  */
-#define APP_FIFO_ENABLED
+//#define APP_FIFO_ENABLED
+#define APP_FIFO_ENABLED 1
+
 
 
 /** @} */
