@@ -1,0 +1,11 @@
+--cpu Cortex-M4.fp
+".\objects\user_board.o"
+".\objects\main.o"
+".\objects\test_config.o"
+".\objects\user_gpip.o"
+".\objects\arm_startup_nrf52.o"
+".\objects\system_nrf52.o"
+--strict --scatter ".\Objects\test01.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\test01.map" -o .\Objects\test01.axf
