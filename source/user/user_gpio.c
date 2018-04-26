@@ -10,17 +10,7 @@
 #include "nrf_gpio.h"
 
 #include "user_gpio.h"
-static void local_delay(unsigned int ar)
-{
-	unsigned int i,j;
-	for(i=0;i<ar;i++)
-	{
-		for(j=0;j<1000;j++)
-		{
 
-		}
-	}
-}
 void led_bright(unsigned int lednbr)
 {
 	nrf_gpio_pin_clear(lednbr);
@@ -59,9 +49,9 @@ void leds_init(void)
 
 void leds_loop(void)
 {
-	local_delay(1000);
+	test_delay(1000);
 	leds_dark();
-	local_delay(2000);
+	test_delay(2000);
 	leds_bright();
 }
 

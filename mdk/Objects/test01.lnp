@@ -11,6 +11,8 @@
 ".\objects\nrf_drv_uart.o"
 ".\objects\app_error_weak.o"
 ".\objects\nrf_drv_common.o"
+".\objects\user_iic.o"
+".\objects\twi_hw_master.o"
 ".\objects\arm_startup_nrf52.o"
 ".\objects\system_nrf52.o"
 --strict --scatter ".\Objects\test01.sct"

@@ -45,23 +45,26 @@ void uart_config(void)
 void user_uart_init(void)
 {
 	uart_config();
-}
-static void local_delay(unsigned int ar)
-{
-	unsigned int i,j;
-	for(i=0;i<ar;i++)
-	{
-		for(j=0;j<1000;j++)
-		{
-
-		}
-	}
+	printf("\r\nNordic52832 Start running---->\r\n");
 }
 
 void user_uart_loop(void)
 {
-	printf("\r\nnrf52832 mcu uart running...\r\n");
-	local_delay(1000);
+	unsigned char i=0;
+	if(NRF_SUCCESS == app_uart_get(&i))
+	{
+		while(i>'0')
+		{
+			printf("\r\nnrf52832 mcu uart running...\r\n");
+			test_delay(1000);
+			app_uart_put(i);
+			app_uart_put(i);
+			app_uart_put('\r');
+			app_uart_put('\n');
+			i--;
+		}
+	}
+	
 }
 #if 0
 void Uart_ModuleInit(void)

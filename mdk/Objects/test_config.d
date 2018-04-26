@@ -27,3 +27,4 @@
 .\objects\test_config.o: ..\source\user\sdk_config.h
 .\objects\test_config.o: ..\source\components\libraries\util\nordic_common.h
 .\objects\test_config.o: ..\source\components\libraries\util\app_error_weak.h
+.\objects\test_config.o: ..\source\user\user_iic.h

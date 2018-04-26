@@ -12,9 +12,26 @@
 #elif DEF_TEST_MODULE == 3
 	#include "user_gpio.h"
 	#include "user_uart.h"
+#elif DEF_TEST_MODULE == 4
+	#include "user_gpio.h"
+	#include "user_uart.h"
+	#include "user_iic.h"
 #else
 	#error "DEF_TEST_MODULE == M means you would not define correct value."
 #endif
+
+
+void test_delay(unsigned int ar)
+{
+	unsigned int i,j;
+	for(i=0;i<ar;i++)
+	{
+		for(j=0;j<1000;j++)
+		{
+
+		}
+	}
+}
 
 void test_init(void)
 {
@@ -29,10 +46,14 @@ void test_init(void)
 	leds_init();
 	keys_init();
 	user_uart_init();
-	
+	#elif DEF_TEST_MODULE == 4
+	user_uart_init();
+	leds_init();
+	user_iic_init();
 	#else
 	
 	#endif
+	
 }
 
 void test_mainloop(void)
@@ -47,6 +68,9 @@ void test_mainloop(void)
 	#elif DEF_TEST_MODULE == 3
 	keys_loop();
 	user_uart_loop();
+	#elif DEF_TEST_MODULE == 4
+	leds_loop();
+	user_iic_loop();
 	#else
 	
 	#endif

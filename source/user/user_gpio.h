@@ -1,7 +1,7 @@
 #ifndef __USER_GPIO_H__
 #define __USER_GPIO_H__
 
-#if MODULE_LED == 1 || MODULE_KEY == 1
+#if 1 //MODULE_LED == 1 || MODULE_KEY == 1
 
 void led_bright(unsigned int lednbr);
 void leds_bright(void);
