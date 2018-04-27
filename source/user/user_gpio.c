@@ -51,7 +51,7 @@ void leds_loop(void)
 {
 	test_delay(1000);
 	leds_dark();
-	test_delay(2000);
+	test_delay(1000);
 	leds_bright();
 }
 

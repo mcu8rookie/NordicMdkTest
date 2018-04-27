@@ -16,8 +16,8 @@
 extern "C" {
 #endif
 
-#define TWI_MASTER_CONFIG_CLOCK_PIN_NUMBER (24U)
-#define TWI_MASTER_CONFIG_DATA_PIN_NUMBER (25U)
+#define TWI_MASTER_CONFIG_CLOCK_PIN_NUMBER (20) //(24U)
+#define TWI_MASTER_CONFIG_DATA_PIN_NUMBER  (21) //(25U)
 
 
 #ifdef __cplusplus

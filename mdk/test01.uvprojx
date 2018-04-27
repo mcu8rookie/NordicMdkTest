@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>BSP_DEFINES_ONLY BOARD_PCA10040 NRF52 NRF52832</Define>
               <Undefine></Undefine>
-              <IncludePath>..\source;..\source\user;..\source\bsp;..\source\bsp;..\source\components\drivers_nrf\hal;..\source\components\libraries\util;..\source\components\drivers_nrf\nrf_soc_nosd;..\source\components\libraries\uart;..\source\components\drivers_nrf\uart;..\source\components\libraries\fifo;..\source\components\drivers_nrf\uart;..\source\components\device;..\source\components\libraries\log;..\source\components\libraries\log\src;..\source\components\drivers_nrf\common;..\source\components\drivers_nrf\twi_master\deprecated;..\source\components\drivers_nrf\twi_master\deprecated\config;..\source\components\drivers_nrf\delay</IncludePath>
+              <IncludePath>..\source;..\source\user;..\source\bsp;..\source\bsp;..\source\components\drivers_nrf\hal;..\source\components\libraries\util;..\source\components\drivers_nrf\nrf_soc_nosd;..\source\components\libraries\uart;..\source\components\drivers_nrf\uart;..\source\components\libraries\fifo;..\source\components\drivers_nrf\uart;..\source\components\device;..\source\components\libraries\log;..\source\components\libraries\log\src;..\source\components\drivers_nrf\common;..\source\components\drivers_nrf\twi_master\deprecated;..\source\components\drivers_nrf\twi_master\deprecated\config;..\source\components\drivers_nrf\delay;..\source\user\mpu6050</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -456,6 +456,16 @@
               <FileName>twi_hw_master.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\source\components\drivers_nrf\twi_master\deprecated\twi_hw_master.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_mpu6050.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\user\user_mpu6050.c</FilePath>
+            </File>
+            <File>
+              <FileName>MPU6050.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\user\mpu6050\MPU6050.c</FilePath>
             </File>
           </Files>
         </Group>

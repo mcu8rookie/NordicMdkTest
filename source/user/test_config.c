@@ -16,6 +16,11 @@
 	#include "user_gpio.h"
 	#include "user_uart.h"
 	#include "user_iic.h"
+#elif DEF_TEST_MODULE == 5
+	#include "user_gpio.h"
+	#include "user_uart.h"
+	#include "user_iic.h"
+	#include "user_mpu6050.h"
 #else
 	#error "DEF_TEST_MODULE == M means you would not define correct value."
 #endif
@@ -50,6 +55,10 @@ void test_init(void)
 	user_uart_init();
 	leds_init();
 	user_iic_init();
+	#elif DEF_TEST_MODULE == 5
+	leds_init();
+	user_uart_init();
+	user_mpu6050_init();
 	#else
 	
 	#endif
@@ -71,6 +80,10 @@ void test_mainloop(void)
 	#elif DEF_TEST_MODULE == 4
 	leds_loop();
 	user_iic_loop();
+	#elif DEF_TEST_MODULE == 5
+	leds_loop();
+	//user_uart_loop();
+	user_mpu6050_loop();
 	#else
 	
 	#endif
